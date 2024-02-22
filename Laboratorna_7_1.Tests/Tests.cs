@@ -55,7 +55,7 @@ namespace Laboratorna_7_1.Tests
                     (r[i][0] == r[i + 1][0] && r[i][1] < r[i + 1][1]) ||
                     (r[i][0] == r[i + 1][0] && r[i][1] == r[i + 1][1] && r[i][3] >= r[i + 1][3]);
 
-                Assert.IsTrue(condition, $"Failed at index {i}");
+                Assert.IsTrue(condition);
             }
         }
 
